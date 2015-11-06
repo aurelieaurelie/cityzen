@@ -1,0 +1,239 @@
+@media only screen and (max-width: 691px)
+{
+	.cityzen-badge a, .cityzen-challenge a {width: 50px !important; height: 50px !important; background-size: 50px !important; margin: 30px 12px 0 0 !important;}
+}
+
+a {
+	color: #55635c;
+}
+
+.cityzen-map  {
+position: relative;
+padding-bottom: 50%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+width: 740px;
+margin-top: 100px;
+height: 580px;
+}
+
+.cityzen-map iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+/* SURCHARGE BOOTSTRAP */
+
+.navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar {
+	background-color: #55635c !important;
+}
+
+.navbar a {
+	color: #FFF;
+}
+
+.navbar li > a:hover {
+	background-color: #65756D !important;
+}
+
+.navbar-brand {
+	background: url(../img/citybot.png) no-repeat right;
+	background-size: 14%;
+	margin-right: 10px;
+}
+
+.container.marketing {
+	margin-top: 50px;
+} 
+
+.carousel,
+.carousel .item,
+.carousel-inner > .item > img,
+.carousel-caption {
+	height: 220px;
+}
+
+.carousel-indicators {
+	bottom: 5px;
+}
+
+/* COMPILATIONS */
+
+.cityzen-badge a,
+.cityzen-challenge a,
+h1.citybot,
+ul.cityzen-top li span {
+	background-repeat: no-repeat;
+}
+
+ul.cityzen-info li,
+ul.team-member li,
+ul.cityzen-top li {
+	display: inline-block;
+	float: left;
+}
+
+/* CAROUSEL BADGES */
+
+.cityzen-badge a,
+.cityzen-challenge a {
+	display: inline-block;
+	width: 116px;
+	height: 116px;
+	float: left;
+	margin-right: 70px;
+}
+
+.cityzen-badge.badge-one a {
+	background-image: url(../img/badge-1.png);
+}
+
+.cityzen-badge.badge-two a {
+	background-image: url(../img/badge-2.png);
+}
+
+.cityzen-badge.badge-three a {
+	background-image: url(../img/badge-3.png);
+}
+
+.cityzen-badge.badge-four a {
+	background-image: url(../img/badge-4.png);
+	margin-right: 0;
+}
+
+.cityzen-challenge.challenge-nature a {
+	background-image: url(../img/challenge-nature.png);
+}
+
+.cityzen-challenge.challenge-recycle a {
+	background-image: url(../img/challenge-recycle.png);
+}
+
+.cityzen-challenge.challenge-light a {
+	background-image: url(../img/challenge-light.png);
+}
+
+.cityzen-challenge.challenge-building a {
+	background-image: url(../img/challenge-building.png);
+}
+
+.cityzen-badge.badge-four a,
+.cityzen-challenge.challenge-building a {
+	margin-right: 0;
+}
+
+/* CONTAINER CHALLENGES */
+
+/* H1 */
+
+h1.citybot {
+	background-image: url(../img/logo-bot.png);
+	background-position: right;
+	background-size: 30%;
+	display: inline-block;
+	width: 100%;
+	height: 120px;
+	line-height: 120px;
+	color: #55635c;
+}
+
+button.citybot-green {
+	background-color: #55635c;
+	color: #FFF;
+}
+
+/* PROFILE */
+
+.cityzen-profile {
+	color: #55635c;
+}
+
+.cityzen-picture {
+	border: 3px solid #a6b12e;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	width: 100px;
+	margin-right: 20px;
+}
+
+.cityzen-picture,
+.building-picture {
+	float: left;
+}
+
+p.cityzen-name {
+	color: #55635c;
+}
+
+ul.cityzen-info,
+ul.building-info,
+ul.team-member,
+ul.cityzen-top {
+	list-style: none;
+}
+
+ul.cityzen-info li {
+	width: 200px;
+	height: 20px;
+}
+
+ul.cityzen-info li.cityzen-points {
+	padding-left: 10px;
+	border-left: 1px solid #55635c;
+}
+
+/* BUILDING */
+
+.building-picture {
+	margin-right: 20px;
+}
+
+.team-member .cityzen-profile img {
+	width: 80px;
+}
+
+.team-member .cityzen-profile p.cityzen-name {
+	font-size: 0.9em;
+}
+
+/* CLASSEMENTS */
+
+ul.cityzen-top li span {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-image: url(../img/citybot.png);
+	background-size: 26px;
+	background-position: center;
+	line-height: 100px;
+	color: #FFF;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+ul.cityzen-top li:first-child span {
+	background-color: #A6B12E;
+	color: #A6B12E;
+}
+
+ul.cityzen-top li:nth-child(2) span {
+	background-color: #55635c;
+	color: #55635c;
+}
+
+ul.cityzen-top li:last-child span {
+	background-color: #72ACAE;
+	color: #72ACAE;
+}
